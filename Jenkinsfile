@@ -3,12 +3,6 @@ pipeline {
 
     stages {
 
-        stage('Clone Project') {
-            steps {
-                git 'C:/Users/abcom/website'
-            }
-        }
-
         stage('Deploy Website') {
             steps {
                 bat '''
